@@ -1,0 +1,48 @@
+.userSidebarContainer {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background-color: rgb(211, 211, 211, 0.075);
+}
+
+.userSidebarList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    // -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    // box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.45);
+}
+
+.userSidebarListItem {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 50px;
+    outline: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px 20px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.userSidebarListItemIcon {
+    margin-right: 10px;
+}
+
+.userSidebarListItem:hover {
+    background-color: lightgray;
+}
+
+.userSidebarList a{
+    text-decoration: none;
+}
+
+.userSidebarList a.active .userSidebarListItem {
+    background-color: lightgray;
+}

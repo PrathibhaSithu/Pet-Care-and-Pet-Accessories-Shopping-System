@@ -1,0 +1,52 @@
+.prescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: linear-gradient(106deg, rgba(153, 128, 250, 0.8715861344537815) 0%, rgba(255, 255, 255, 1) 100%);
+    height: auto;
+    min-height: 90vh;
+    padding: 40px;
+}
+
+.prescription-record-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.prescription-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.prescription-line {
+    display: flex;
+    margin: 10px 0;
+}
+
+.prescription-line-info{
+    flex: 1;
+    padding: 5px 10px;
+    font-weight: 600;
+    min-width: 150px; //change accordingly
+    white-space: pre-wrap;
+}
+
+.prescription-line-info-values{
+    flex: 2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+
+// .vet-line-info-values{
+//     padding: 5px 10px;
+//     margin-top: 20px;
+//     height: 130px;
+//     border-radius: 5px;
+//     text-align: justify;
+//     text-justify: inter-word;
+// }

@@ -1,0 +1,165 @@
+// colors
+$primary-color-navyBlue: #2c2c54;
+$secondary-color-purple1: #7d5fff;
+$secondary-color-purple2: #5f27cd;
+$secondary-color-purple3: #9980fa;
+$secondary-color-purple4: #e9e3ff;
+$ash-color: #636e72;
+
+// fonts
+$fontfam-1: "Poppins", sans-serif;
+
+.update-order-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90vh; //change height accordingly
+	background: rgb(153, 128, 250);
+	background: linear-gradient(
+		106deg,
+		rgba(153, 128, 250, 0.8715861344537815) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
+.form-container-update-order {
+	width: 950px;
+	height: 580px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 8px 8px 10px rgba($color: #000000, $alpha: 0.5);
+}
+
+.column-update-order {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 450px;
+	height: 500px;
+}
+
+.input-container-update-order {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-title-update-order {
+	text-transform: capitalize;
+	color: $primary-color-navyBlue;
+	font-weight: 600;
+	color: $ash-color;
+	font-size: 0.9em;
+}
+
+.input-field-update-order {
+	width: 400px;
+	font-size: 1em;
+	padding: 10px 20px;
+	outline: none;
+	margin: 5px 0 0 0;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+}
+
+.input-field-update-order-column-two:nth-child(4) {
+	margin: 5px 0 0 0;
+}
+
+.input-field-update-order:focus {
+	border-color: $secondary-color-purple1;
+}
+
+.input-textarea-update-order {
+	width: 400px;
+	font-size: 1em;
+	padding: 10px 20px;
+	outline: none;
+	font-family: $fontfam-1;
+	margin: 10px 0 15px 0;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+	height: 130px;
+	resize: none;
+}
+
+.input-textarea-update-order:focus {
+	border-color: $secondary-color-purple1;
+}
+
+.select-option-update-order {
+	width: 350px;
+	border: none;
+}
+
+.btn-container-update-order {
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 400px;
+}
+
+.submit-btn-update-order {
+	padding: 5px 50px;
+	width: 200px;
+	outline: none;
+	border: 2px solid transparent;
+	font-size: 18px;
+	background-color: $secondary-color-purple1;
+	color: white;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.reset-btn-update-order {
+	padding: 5px 50px;
+	width: 180px;
+	outline: none;
+	border: 2px solid $secondary-color-purple1;
+	font-size: 18px;
+	background-color: transparent;
+	color: $secondary-color-purple1;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.submit-btn-update-order:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}
+
+.reset-btn-update-order:hover {
+	cursor: pointer;
+	box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.6);
+}
+
+/* CSS for disabled input fields */
+.input-field-update-order[disabled] {
+	background-color: #f0f0f0; 
+	color: #888; 
+	cursor: not-allowed; 
+}
+  
+/* CSS for disabled select fields */
+.input-field-update-order[disabled] option {
+	background-color: #f0f0f0; 
+	color: #888; 
+	cursor: not-allowed; 
+}
+
+.validateErrors{
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	color: crimson;
+	margin-left: 10px;
+	height: 18px;
+	transform: translateY(10px);
+}
+
+.visible-non{
+	visibility: hidden;
+}

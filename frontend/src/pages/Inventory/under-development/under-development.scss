@@ -1,0 +1,17 @@
+.main-under-dev-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.under-dev-picture{
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}
+
+.under-dev-prompt{
+    font-size: 1.4em;
+}

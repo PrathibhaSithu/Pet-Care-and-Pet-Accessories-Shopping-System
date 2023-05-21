@@ -1,0 +1,195 @@
+// colors
+$primary-color-navyBlue: #2c2c54;
+$secondary-color-purple1: #7d5fff;
+$secondary-color-purple2: #5f27cd;
+$secondary-color-purple3: #9980fa;
+$secondary-color-purple4: #e9e3ff;
+$ash-color: #636e72;
+$success-color: #2ecc71;
+$danger-color: #e74c3c;
+
+// fonts
+$fontfam-1: "Poppins", sans-serif;
+
+.add-supplier-container-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 90vh; //change height accordingly
+	background: rgb(153, 128, 250);
+	background: linear-gradient(
+		106deg,
+		rgba(153, 128, 250, 0.8715861344537815) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
+// form styles will go on here
+.add-supplier-form-container {
+	width: 950px;
+	height: 580px;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 5px 5px 8px rgba($color: #000000, $alpha: 0.4),
+		-5px -5px 8px rgba($color: #000000, $alpha: 0.4);
+	padding: 20px;
+}
+
+.form-status-model {
+	width: 500px;
+	height: 50px;
+	margin: 20px 0;
+	border-radius: 10px;
+	visibility: hidden;
+}
+
+.form-status-model.validation-success {
+	/* From https://css.glass */
+	background: rgba(46, 213, 115, 0.37);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.7px);
+	-webkit-backdrop-filter: blur(7.7px);
+	border: 1px solid rgba(46, 213, 115, 1);
+	visibility: visible;
+}
+
+.form-status-model.validation-failed {
+	/* From https://css.glass */
+	background: rgba(255, 71, 87, 0.15);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.8px);
+	-webkit-backdrop-filter: blur(7.8px);
+	border: 1px solid rgba(255, 71, 87, 1);
+	visibility: visible;
+}
+
+.tagline-add-supplier {
+	font-size: 20px;
+	font-weight: 600;
+	color: $secondary-color-purple1;
+}
+// column container stylings
+
+.column-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 530px;
+}
+
+.add-supplier-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	width: 450px;
+	height: 500px;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-title {
+	text-transform: capitalize;
+	color: $primary-color-navyBlue;
+	font-weight: 600;
+	color: $ash-color;
+	font-size: 0.9em;
+}
+
+.input-field-add-supplier {
+	width: 400px;
+	font-size: 1em;
+	padding: 10px 20px;
+	outline: none;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.input-field-add-supplier:focus {
+	border-color: $secondary-color-purple1;
+}
+
+.input-textarea {
+	width: 400px;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-family: $fontfam-1;
+	font-size: 1em;
+	outline: none;
+	margin: 10px 0 15px 0;
+	border: 2px solid $primary-color-navyBlue;
+	border-radius: 10px;
+	height: 130px;
+	resize: none;
+}
+
+.input-textarea:focus {
+	border-color: $secondary-color-purple1;
+}
+
+.select-option {
+	width: 350px;
+	border: none;
+}
+
+.btn-container-add-supplier {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 400px;
+}
+
+.submit-btn-add-supplier {
+	width: 150px;
+	outline: none;
+	border: 2px solid $secondary-color-purple1;
+	font-size: 18px;
+	background-color: transparent;
+	color: $secondary-color-purple1;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.reset-btn-add-supplier {
+	padding: 5px 50px;
+	width: 150px;
+	outline: none;
+	border: 2px solid $secondary-color-purple1;
+	font-size: 18px;
+	background-color: transparent;
+	color: $secondary-color-purple1;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+
+.submit-btn-add-supplier:hover {
+	cursor: pointer;
+	background-color: $secondary-color-purple1;
+	color: white;
+}
+
+.reset-btn-add-supplier:hover {
+	cursor: pointer;
+	background-color: $secondary-color-purple1;
+	color: white;
+}
+
+.validateErrors {
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	color: crimson;
+	margin-left: 10px;
+	height: 18px;
+}
+
+.visible-non {
+	visibility: hidden;
+}

@@ -1,0 +1,30 @@
+// colors
+$primary-color-navyBlue : #2C2C54;
+$secondary-color-purple1: #7D5FFF;
+$secondary-color-purple2: #5F27CD;
+$secondary-color-purple3: #9980FA;
+$secondary-color-purple4: #E9E3FF;
+$ash-color: #636e72;
+
+// fonts
+$fontfam-1: 'Poppins', sans-serif;
+
+.operation-unsuccess-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgblock {
+    margin-top: 50px;
+    width: 335px;
+    height: 300px;
+    background-size: cover;
+}
+
+.message-box {
+    text-align: center;
+    font-size: 25px;
+    color: $secondary-color-purple1;
+}

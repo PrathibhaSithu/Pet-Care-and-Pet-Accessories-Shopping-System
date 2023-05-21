@@ -1,0 +1,58 @@
+.pet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background: linear-gradient(106deg, rgba(217, 209, 252, 0.872) 0%, rgba(255, 255, 255, 1) 100%);
+  height: auto;
+  min-height: 90vh;
+  padding: 40px;
+}
+
+.pet-record-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 80px 30px 50px;
+  background-color: rgba(33, 8, 78, 0.15);
+  border: 2px solid rgba(74, 21, 145, 0.2);
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.pet-pic-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.pet-img{
+  height: 200px;
+  border-radius: 10px;
+}
+
+.pet-details-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-line {
+  display: flex;
+  margin: 10px 0 10px 30px;
+}
+
+.pet-line-info{
+  flex: 1;
+  padding: 5px 10px;
+  font-weight: 600;
+  min-width: 200px; //change accordingly
+  white-space: pre-wrap;
+}
+
+.pet-line-info-values{
+  flex: 2;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,43 @@
+.productInsightsOverview {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+.productInsight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInsightImg {
+    height: 50px;
+}
+
+.productInsightDetails {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.productInsightName{
+    font-size: 20px;
+    color: #5F27CD;
+}
+
+.productInsightData{
+    font-size: 30px;
+    font-weight: 600;
+    color: #2C2C54;
+}
+  
+
+  

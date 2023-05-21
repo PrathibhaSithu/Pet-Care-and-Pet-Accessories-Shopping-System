@@ -1,0 +1,53 @@
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(106deg, rgba(153, 128, 250, 0.8715861344537815) 0%, rgba(255, 255, 255, 1) 100%);
+    height: auto;
+    min-height: 90vh;
+    
+}
+
+.imageContainer {
+    text-align: center;
+    height:200px;
+    width: 500px;
+    object-fit: cover;
+    padding: 70px;
+    
+}
+
+
+table {
+    margin: 30px;
+    border: 2px solid gray;
+    
+}
+table tr{
+    position: relative;
+}
+
+table tr td {
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 20px 10px;
+}
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+ 

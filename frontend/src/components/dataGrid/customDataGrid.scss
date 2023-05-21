@@ -1,0 +1,59 @@
+.grid-cell {
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0.2px solid lightgray;
+    width: calc(100% - 18px) !important;
+}
+  
+.customDataGrid {
+    border: 1px solid lightgray;
+    width: 100%;
+}
+  
+.customDataGrid .MuiDataGrid-main {
+    border: 1px solid lightgray;
+    padding: 0 5px;
+}
+  
+.customDataGrid .MuiDataGrid-main .MuiDataGrid-cell {
+    border-bottom: none;
+}
+
+.customDataGrid .MuiDataGrid-virtualScroller {
+    overflow-x: hidden;
+}
+
+/* Styles for the scrollbar in the data grid */
+.customDataGrid .MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+}
+
+/* Styles for the track of the scrollbar in the data grid */
+.customDataGrid .MuiDataGrid-virtualScroller::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Styles for the thumb of the scrollbar in the data grid */
+.customDataGrid .MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+/* Styles for the thumb of the scrollbar in the data grid on hover */
+.customDataGrid .MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.customDataGrid .MuiDataGrid-cell:focus-within,
+.customDataGrid .MuiDataGrid-columnHeader:focus-within {
+    outline: none !important;
+}
+
+/* Font size for column header */
+.customDataGrid .MuiDataGrid-columnHeader {
+    font-size: 16px;
+}

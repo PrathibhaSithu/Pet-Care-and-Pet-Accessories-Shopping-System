@@ -1,0 +1,143 @@
+// colors
+$primary-color-navyBlue: #2c2c54;
+$secondary-color-purple1: #7d5fff;
+$secondary-color-purple2: #5f27cd;
+$secondary-color-purple3: #9980fa;
+$secondary-color-purple4: #e9e3ff;
+$ash-color: #636e72;
+
+.view-inventory-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.container {
+    margin: 70px 5px 0 5px;
+    height: 600px;
+}
+
+// first column stylings
+.container:nth-child(1) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.tag-values {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.pic-box-inventory-item {
+    margin-top: 120px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba($color: #000000, $alpha: 0.4);
+}
+
+.medicine-name {
+    width: 250px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: $ash-color;
+}
+
+.company-name {
+    width: 250px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: $ash-color;
+}
+
+// second column stylings
+.container:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 900px;
+}
+
+.field-names-supplier {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+}
+
+.data-fields-supplier {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 95%;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: $ash-color;
+    font-weight: 600;
+}
+
+.field-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 79%;
+    height: 100%;
+    background-color: white;
+}
+
+.data-fields-supplier-values {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: $primary-color-navyBlue;
+}
+
+.pic-box-view-supplier{
+    margin-top: 100px;
+    width: 300px;
+    height: 250px;
+}
+
+.view-supplier-back-btn{
+    width: 160px;
+    padding: 4px 10px;
+    background-color: $secondary-color-purple1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.view-supplier-back-btn:hover{
+    background-color: $secondary-color-purple2;
+    cursor: pointer;
+}
+

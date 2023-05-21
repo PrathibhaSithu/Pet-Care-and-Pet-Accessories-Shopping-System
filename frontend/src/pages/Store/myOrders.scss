@@ -1,0 +1,178 @@
+
+.myOrdersContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.orderHistoryContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.orderHistoryContainerTitle {
+    padding: 15px 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.orderHistoryItem {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+// .orderHistoryItem:last-child {
+//     border-bottom: none;
+// }
+
+.selectedOrderHistoryItem {
+    border-left: 5px solid #5F27CD;
+}
+
+.selectedOrderHistoryItem .orderHistoryItemId{
+    color: #5F27CD;
+}
+
+.orderHistoryItemId {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.orderHistoryItemTotal {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.orderHistoryItemQuantity {
+    color: gray;
+}
+
+.orderHistoryItemDeliveryStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderHistoryItemDeliveryStatusTop {
+    display: flex;
+    align-items: center;
+}
+
+.orderDetailsContainer {
+    flex: 3;
+}
+
+.myOrderView {
+    margin-left: 30px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.myOrderId {
+    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.myOrderItem {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.myOrderItemLeft {
+    display: flex;
+    flex: 6;
+}
+
+.myOrderItemImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+.myOrderItemDetails {
+    display: flex;
+    padding: 0 15px;
+    flex-direction: column;
+}
+
+.myOrderItemProductName {
+    margin-bottom: 10px;
+}
+
+.myOrderItemUnitPrice {
+    margin-bottom: 10px;
+    color: #5F27CD;
+    font-weight: 500;
+}
+
+.myOrderItemQuantity {
+    color: gray;
+}
+
+.myOrderItemRight {
+    flex: 1;
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.myOrderDetails {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.myOrderDetailsTitle {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.myOrderDetailRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.myOrderDetailName {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.myOrderDetailData {
+    font-weight: 500;
+}
+
+.myOrderDetailShipping {
+    border-bottom: 1px solid lightgray;
+}
+
+.myOrderDetailTotal {
+    margin-top: 10px;
+}
+
+.myOrderDetailTotal .myOrderDetailName {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.myOrderDetailTotal .myOrderDetailData {
+    font-weight: 500;
+    font-size: 18px;
+    color: #5F27CD;
+}
+
+

@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap");
+
+// colors
+$primary-col: #2c2c54;
+$secondary-col1: #5f27cd;
+$secondary-col2: #7d5fff;
+$secondary-col3: #9980fa;
+$tertiary-col: #e9e3ff;
+
+// fonts
+$font-fam-1: "Poppins", sans-serif;
+
+.nav-container-header-adv {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    color: white;
+    z-index: 1000;
+    background-color: $primary-col;
+}
+
+.nav-container-header-adv-transparent {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    color: white;
+    z-index: 1000;
+}
+
+.nav-container-header-adv-without-color {
+    position: absolute;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    color: white;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.partition-nav-1 {
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-text-header-adv {
+    font-size: 2em;
+    line-height: 35px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: $font-fam-1;
+}
+
+.partition-nav-2-header-adv {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 0.9em;
+    color: white;
+    font-family: $font-fam-1;
+    transform: translateX(300px);
+}
+
+.partition-nav-2-header-adv>.nav-links-header-advanced {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 20px;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.partition-nav-2-header-adv>.nav-links-header-advanced:hover {
+    color: white;
+    cursor: pointer;
+    border-color: $secondary-col3;
+}
+
+.nav-login-btn-header-advanced:hover {
+    background-color: $secondary-col3;
+    color: white;
+    cursor: pointer;
+    border-color: $secondary-col3;
+}
+
+.nav-login-btn-header-advanced {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 4px 20px;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.company-logo {
+    height: auto;
+    width: 70px;
+}
+
+.partiton-nav-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.profile-cpt-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(25px);
+}
+
+.drop-btn-header-adv{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    margin-left: 50px;
+}
+
+.btn-section-header-adv{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-col;
+    position: absolute;
+    transform: translate(50px , 95px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hide{
+    height: 0;
+}
+
+.scroller-btns{
+    width: 100px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-weight: 600;
+    font-family: $font-fam-1;
+    // margin-right: 60px;
+    cursor: pointer;
+}
+
+.show{
+    display: flex;
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}
