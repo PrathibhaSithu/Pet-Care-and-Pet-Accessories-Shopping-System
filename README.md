@@ -1,2 +1,2 @@
 # Pet Care and Pet accessories shopping system 
-My Part is Customer and Appointment Management System
+MERN Stack project for Online Animal Clinic Channing and Online Pet Accessories shop.
